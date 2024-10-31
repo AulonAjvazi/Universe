@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    background-image: url('pexels-anntarazevich-6501751.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.UNI{
+    text-align: center;
+    color: white;
+    font-family: "Space Mono", monospace;
+    font-weight: bolder;
+    font-style: italic;
+    animation: LeftToRight 1s ease-in-out;
+}
+
+@keyframes LeftToRight{
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+.what_is{
+    text-align: center;
+    color: wheat;
+    font-family: "Space Mono", monospace;
+    font-weight: bold;
+    font-style: oblique;
+    animation: FadeInOut 3s ease-in-out;
+    text-decoration: underline lightyellow;
+}
+
+.what_is:active{
+    color: #D4BEE4;
+}
+
+@keyframes FadeInOut{
+    0%{
+        opacity: 0;
+        transform: translateY(100);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.du{
+    text-align: center;
+    color: white;
+    margin: auto;
+    font-family: "Source Code Pro", serif;
+    list-style-position: inside;
+    animation: RightToLeft 6s ease-in-out;
+}
+
+@keyframes RightToLeft{
+    0%{
+        opacity: 0;
+        transform: translateY(100);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.solar{
+    text-align: center;
+    color: white;
+    font-family: 'Audiowide', cursive;
+    animation: downtoup 2s ease-in-out
+}
+
+@keyframes downtoup{
+    0%{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.galaxies{
+    text-align: center;
+    color: lightsteelblue;
+    animation: downtoup 2s ease-in-out;
+    font-family: 'Audiowide', cursive;
+}
+
+@keyframes downtoup{
+    0%{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+span{
+    color: lightblue;
+}
+
+.copyright{
+    text-align: center;
+    color: #F1C40F;
+    font-family: 'Nova Mono', monospace;
+    animation: fadeinup 3s ease-in-out;
+}
+
+@keyframes fadeinup{
+    0%{
+        opacity: 0;
+        transform: translateY(0);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(100);
+    }
+}
