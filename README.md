@@ -5,7 +5,7 @@ Welcome to About our Universe! This website is designed to give information abou
 
 
 ## 🌐 Live Preview
-You can view the current state of my portfolio at
+You can view the current state of the website
 - https://aulonajvazi.github.io/Universe/
 
 ## Authors
