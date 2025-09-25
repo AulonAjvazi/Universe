@@ -1,7 +1,7 @@
 # About Our Universe
 Welcome to About our Universe! This website is designed to give information about our universe:
 - What is our Universe?
-- Diffrent Galaxies of our Universe
+- Different Galaxies of our Universe
 
 
 ## 🌐 Live Preview
